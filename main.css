@@ -1,0 +1,38 @@
+
+.navbar {
+	height: 75px;
+	width: 100%;
+	background-color: black;
+	border-bottom: 5px solid red;
+	display: inline-block;
+
+}
+
+.nav-link {
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: #e4e4c7;
+	color: black;
+	font-size: 25px;
+	float: right;
+	margin: 15px 10px 15px 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 2px;
+}
+
+#brand {
+	margin-left: 15px;
+}
+
+.container {
+	height: 650px;
+	width: 1417px;
+	 
+	background: url(images/opening_credit.jpg);
+	background-size: 1417px 630px;
+	background-repeat: no-repeat;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
