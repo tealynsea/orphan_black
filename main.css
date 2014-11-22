@@ -1,4 +1,4 @@
-
+/*Navigation bar*/
 .navbar {
 	height: 75px;
 	width: 100%;
@@ -13,26 +13,16 @@
 	display: inline;
 }
 .nav-link {
-	border: 5px solid black;
-	border-radius: 10px;
-	background-color: #e4e4c7;
-	color: black;
-	font-size: 25px;
 	float: right;
 	margin: 15px 10px 15px 0;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	padding: 5px;
 }
 
 #brand {
-	margin-top: 10px;
+	margin-top: 6px;
 	margin-left: 15px;
-	color: white;
-	font: normal normal 500 50px/150% Copperplate, 'Copperplate Gothic Light', fantasy;
 }
 
- 
-
+/*body*/
 .container {
 	height: 650px;
 	width: 1417px;
@@ -40,14 +30,16 @@
 	background: url(images/opening_credit.jpg);
 	background-size: 1417px 630px;
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 .cosima {
 	height: 75px;
 	width: 75px;
-	color: white;
+	color: red;
 	margin-left: 100px;
-	z-index: 1;
+	position: absolute;
+	margin: 20px;
 }
 
 
