@@ -1,45 +1,90 @@
 /*Navigation bar*/
 .navbar {
+	
 	height: 75px;
 	width: 100%;
-	background-color: black;
-	border-bottom: 5px solid red;
+	background-color: transparent;
+	/*border-bottom: 5px solid red;*/
 }
 
 .navItems {
+	
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	display: inline;
 }
 .nav-link {
+	
 	float: right;
 	margin: 15px 10px 15px 0;
 }
 
 #brand {
+	
 	margin-top: 6px;
 	margin-left: 15px;
 }
 
 /*body*/
-.container {
-	height: 650px;
-	width: 1417px;
+body {
 	 
-	background: url(images/opening_credit.jpg);
+	height: auto;
+	width: auto;
+	background-image: url(images/opening_credit.jpg);
 	background-size: 1417px 630px;
 	background-repeat: no-repeat;
+	background-color: black;
 	position: relative;
+	 
 }
 
-.cosima {
-	height: 75px;
-	width: 75px;
-	color: red;
-	margin-left: 100px;
+.front img{
+	
+	height: 100px;
+	width: 100px;
 	position: absolute;
-	margin: 20px;
+	border-radius: 50%;
+	
+}
+
+#sarah {
+	
+	/*visibility: hidden;*/
+	margin-top: -10px;
+	margin-left: 460px;
+	display: inline-block;
+}
+
+#cosima {
+	
+	/*visibility: hidden;*/
+	margin-top: 18px;
+	margin-left: 424px;
+	display: inline-block;
+}
+
+#allison {
+	
+	/*visibility: hidden;*/
+	margin-top: 40px;
+	margin-left: 424px;
+	display: inline-block;
+}
+
+#helena {
+	
+	/*visibility: hidden;*/
+	margin-top: 18px;
+	margin-left: 424px;
+	display: inline-block;
+}
+
+#rachel {
+	/*visibility: hidden;*/
+	margin-top: 18px;
+	margin-left: 424px;
+	display: inline-block;
 }
 
 
