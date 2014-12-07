@@ -39,53 +39,83 @@ body {
 	 
 }
 
-.front img{
+.container {
+
+	margin-top: 100px;
+}
+
+.clone img {
+	width: 200px;
+	height: 200px;
+}
+
+/*framework*/
+
+h2 {
+	margin-top: 0px;
+	color: white;
+}
+
+.clone {
+	float: left;
+	margin: 40px;
+}
+
+.front, .back {
+	background: #CCC;
+	border-radius: 10px;
+}
+
+.front {
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
 	
-	height: 100px;
-	width: 100px;
+}
+
+.back {
+	padding: 20px;
+	width: 160px;
+	height: 160px;
+	
+}
+
+
+/* transitions */
+.clone {
+	position: relative;
+
+}
+
+.front {
 	position: absolute;
-	border-radius: 50%;
-	
+	transition: 1s;
 }
 
-#sarah {
-	
-	/*visibility: hidden;*/
-	margin-top: -10px;
-	margin-left: 460px;
-	display: inline-block;
+.back {
+	 
+	 -webkit-transform: rotateY(180deg);
+	 -webkit-backface-visibility: hidden;
+	 transition: 1s;
+	 
 }
 
-#cosima {
-	
-	/*visibility: hidden;*/
-	margin-top: 18px;
-	margin-left: 424px;
-	display: inline-block;
+
+.clone:hover .front {
+  -webkit-transform: rotateY(180deg);
+}
+ 
+.clone:hover .back {
+	-webkit-transform: rotateY(0deg);
 }
 
-#allison {
-	
-	/*visibility: hidden;*/
-	margin-top: 40px;
-	margin-left: 424px;
-	display: inline-block;
-}
 
-#helena {
-	
-	/*visibility: hidden;*/
-	margin-top: 18px;
-	margin-left: 424px;
-	display: inline-block;
-}
 
-#rachel {
-	/*visibility: hidden;*/
-	margin-top: 18px;
-	margin-left: 424px;
-	display: inline-block;
-}
+
+ 
+
+
+ 
 
 
 
